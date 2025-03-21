@@ -6,7 +6,7 @@ pipeline {
         DOCKER_TAG = "latest"
         DOCKER_CREDENTIALS_ID = "dockerhub"
         GITHUB_CREDENTIALS_ID = "github"
-        KUBECONFIG = "/var/lib/jenkins/.kube/config"
+        KUBECONFIG = "/spring"
     }
 
     stages {
